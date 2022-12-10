@@ -380,8 +380,9 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "Recent";
 }
+
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -407,7 +408,16 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: white;
 }
+
+.teams .carousel .card p{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: white;
+}
+
 .teams .carousel .card img{
     height: 150px;
     width: 150px;
